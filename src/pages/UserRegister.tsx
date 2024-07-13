@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function UserRegister() {
   return (
     <main className="flex flex-col md:flex-row gap-4">
@@ -130,7 +132,7 @@ function UserRegister() {
             className="flex justify-center gap-2 mt-4"
           >
             <p className="text-sm">
-              Already have an account? <a href="/user/login" className="text-[#42727B] hover:underline">Login</a>
+              Already have an account? <Link to="/user/login" className="text-[#42727B] hover:underline">Login</Link>
             </p>
           </div>
 
