@@ -120,7 +120,7 @@ function UserRegister() {
           >
             <button
               type="submit"
-              className="bg-gradient-to-r from-[#42727B] to-[#89B76C] text-white p-4 rounded-full w-52 font-bold text-xl"
+              className="bg-gradient-to-r from-[#42727B] to-[#89B76C] text-white p-4 rounded-full w-52 font-bold text-xl transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-xl focus:outline-none"
             >
               Register
             </button>
